@@ -16,7 +16,6 @@ function getTimeOfDay() {
 function showGreeting() {
     const greeting = document.querySelector('.greeting');
     const timeOfDay = getTimeOfDay();
-    console.log(nameOfUser)
     if (nameOfUser.value){
         nameOfUser.placeholder = '[Enter name]';
     }
@@ -42,3 +41,5 @@ function getLocalStorage() {
 window.addEventListener('load', getLocalStorage)
 
 showGreeting()
+
+export {getTimeOfDay}
