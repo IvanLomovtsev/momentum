@@ -21,11 +21,13 @@ function setBg() {
     console.log(img.src)
 }
 
+//function that switches to the next picture
 function getSlideNext() {
     randomNum > 19 ? randomNum = 10 : randomNum++;
     setBg();
 }
 
+//function that switches to the previous picture
 function getSlidePrev() {
     randomNum < 11 ? randomNum = 20 : randomNum--;
     setBg();
