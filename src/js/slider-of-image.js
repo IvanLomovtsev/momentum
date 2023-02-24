@@ -14,9 +14,9 @@ setBg();
 function setBg() {
     const timeOfDay = getTimeOfDay();
     const img = new Image();
-    img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${randomNum}.jpg'`; 
+    img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${randomNum}.jpg`; 
     img.onload = () => {      
-        body.style.backgroundImage = `"url('${img.src}')"`;
+        body.style.backgroundImage = `url('${img.src}')`;
     };
     console.log(img.src)
 }
