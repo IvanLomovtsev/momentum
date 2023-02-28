@@ -22,6 +22,7 @@ async function getWeather() {
   }
 getWeather()
 
+//change of city
 city.addEventListener('change', ()=>{
     getWeather(city.value);
 })
