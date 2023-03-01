@@ -2,13 +2,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: path.join(__dirname, 'src', 'index.js'),
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'index.[contenthash].js',
-    assetModuleFilename: 'assets/images/[name].[contenthash][ext]',
+    assetModuleFilename: 'assets/[name].[contenthash][ext]',
   },
   module: {
     rules: [
@@ -28,6 +29,9 @@ module.exports = {
         {
             test: /\.(png|jpg|jpeg|gif)$/i,
             type: 'asset/resource',
+            generator: {
+                filename: 'assets/images/[name].[contenthash][ext]',
+            },
         },
         {
             test: /\.svg$/,
@@ -59,6 +63,12 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
        filename: '[name].[contenthash].css',
+    }),
+    new CopyPlugin({
+        patterns: [
+          { from: './src/assets/data', to: './assets/data'},
+          { from: './src/assets/sounds', to: './assets/sounds' },
+        ],
     }),
   ],
   devServer: {
