@@ -3,6 +3,7 @@ const changeQuote = document.querySelector('.change-quote');
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
 
+//loading new quote
 async function getQuotes() {  
     const quotes = './assets/data/quote-data.json';
     const res = await fetch(quotes);
