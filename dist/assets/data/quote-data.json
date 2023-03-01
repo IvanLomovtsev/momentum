@@ -1,86 +1,86 @@
 [
     {
-      "text-ru": "Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете",
-      "author-ru": "Стив Макконнелл",
-      "text-en": "Write code as if it were accompanied by a violent psychopath who knows where you live",
-      "author-en": "Steve McConnell"
+      "text_ru": "Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете",
+      "author_ru": "Стив Макконнелл",
+      "text_en": "Write code as if it were accompanied by a violent psychopath who knows where you live",
+      "author_en": "Steve McConnell"
     },
     {
-      "text-ru": "Программирование — это искусство делать машины полезными. Объектно-ориентированное программирование — это искусство делать программы понятными.",
-      "author-ru": "Бертран Мейер",
-      "text-en": "Programming is the art of making machines useful. Object-oriented programming is the art of making programs understandable.",
-      "author-en": "Bertrand Meyer"
+      "text_ru": "Программирование — это искусство делать машины полезными. Объектно-ориентированное программирование — это искусство делать программы понятными.",
+      "author_ru": "Бертран Мейер",
+      "text_en": "Programming is the art of making machines useful. Object-oriented programming is the art of making programs understandable.",
+      "author_en": "Bertrand Meyer"
     },
     {
-      "text-ru": "Хороший код — это код, который работает, а отличный код — это код, который понятен.",
-      "author-ru": "Мартин Фаулер",
-      "text-en": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-      "author-en": "Martin Fowler"
+      "text_ru": "Хороший код — это код, который работает, а отличный код — это код, который понятен.",
+      "authorru": "Мартин Фаулер",
+      "text_en": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "author_en": "Martin Fowler"
     },
     {
-      "text-ru": "Программисты обычно ошибаются, думая, что их задача заключается в написании кода. На самом деле их задача — решение проблем бизнеса, используя код как инструмент.",
-      "author-ru": "Джон Сонмез",
-      "text-en": "Programmers often make the mistake of thinking that their job is to write code. Their job is to solve business problems using code as a tool.",
-      "author-en": "John Sonmez"
+      "text_ru": "Программисты обычно ошибаются, думая, что их задача заключается в написании кода. На самом деле их задача — решение проблем бизнеса, используя код как инструмент.",
+      "author_ru": "Джон Сонмез",
+      "text_en": "Programmers often make the mistake of thinking that their job is to write code. Their job is to solve business problems using code as a tool.",
+      "author_en": "John Sonmez"
     },
     {
-      "text-ru": "Будьте проще, чем вам кажется возможным, будьте больше, чем вы кажетесь на этот момент.",
-      "author-ru": "Антон Чехов",
-      "text-en": "Be simple, be more than what you see, present and look for something beyond.",
-      "author-en": "Anton Chekhov"
+      "text_ru": "Будьте проще, чем вам кажется возможным, будьте больше, чем вы кажетесь на этот момент.",
+      "author_ru": "Антон Чехов",
+      "text_en": "Be simple, be more than what you see, present and look for something beyond.",
+      "author_en": "Anton Chekhov"
     },
     {
-      "text-ru": "Я не боюсь умереть, я просто не хочу быть там, когда это произойдет.",
-      "author-ru": "Вуди Аллен",
-      "text-en": "I'm not afraid of dying, I just don't want to be there when it happens.",
-      "author-en": "Woody Allen"
+      "text_ru": "Я не боюсь умереть, я просто не хочу быть там, когда это произойдет.",
+      "author_ru": "Вуди Аллен",
+      "text_en": "I'm not afraid of dying, I just don't want to be there when it happens.",
+      "author_en": "Woody Allen"
     },
     {
-        "text-ru": "Нельзя получить ничего нового, делая всё то же самое снова и снова.",
-        "author-ru": "Альберт Эйнштейн",
-        "text-en": "Insanity is doing the same thing over and over again and expecting different results.",
-        "author-en": "Albert Einstein"
+        "text_ru": "Нельзя получить ничего нового, делая всё то же самое снова и снова.",
+        "author_ru": "Альберт Эйнштейн",
+        "text_en": "Insanity is doing the same thing over and over again and expecting different results.",
+        "author_en": "Albert Einstein"
     },
     {
-        "text-ru": "Тот, кто никогда не совершает ошибок, никогда не пробовал ничего нового.",
-        "author-ru": "Альберт Эйнштейн",
-        "text-en": "A person who never made a mistake never tried anything new.",
-        "author-en": "Albert Einstein"
+        "text_ru": "Тот, кто никогда не совершает ошибок, никогда не пробовал ничего нового.",
+        "author_ru": "Альберт Эйнштейн",
+        "text_en": "A person who never made a mistake never tried anything new.",
+        "author_en": "Albert Einstein"
     },
     {
-        "text-ru": "Великие цели необходимы, чтобы дать жизнь смысл, но в конечном итоге это только шаги в процессе достижения их, что дает смысл жизни.",
-        "author-ru": "Лоуренс Краус",
-        "text-en": "Great goals are necessary to give life meaning, but in the end, it's only the steps we take in the process of achieving them that give life meaning.",
-        "author-en": "Lawrence Krauss"
+        "text_ru": "Великие цели необходимы, чтобы дать жизнь смысл, но в конечном итоге это только шаги в процессе достижения их, что дает смысл жизни.",
+        "author_ru": "Лоуренс Краус",
+        "text_en": "Great goals are necessary to give life meaning, but in the end, it's only the steps we take in the process of achieving them that give life meaning.",
+        "author_en": "Lawrence Krauss"
     },
     {
-        "text-ru": "Сложность — это враг успеха. Простота — ключ к успеху.",
-        "author-ru": "Аннет Мориан",
-        "text-en": "Complexity is the enemy of success. Simplicity is the key to success.",
-        "author-en": "Annet Morian"
+        "text_ru": "Сложность — это враг успеха. Простота — ключ к успеху.",
+        "author_ru": "Аннет Мориан",
+        "text_en": "Complexity is the enemy of success. Simplicity is the key to success.",
+        "author_en": "Annet Morian"
     },
     {
-        "text-ru": "Нет ничего более могущественного, чем идея, которое время пришло.",
-        "author-ru": "Виктор Юго",
-        "text-en": "There is nothing more powerful than an idea whose time has come.",
-        "author-en": "Victor Hugo"
+        "text_ru": "Нет ничего более могущественного, чем идея, которое время пришло.",
+        "author_ru": "Виктор Юго",
+        "text_en": "There is nothing more powerful than an idea whose time has come.",
+        "author_en": "Victor Hugo"
     },
     {
-        "text-ru": "Процесс – это ключ к успеху. Вы должны иметь рабочий процесс, который делает вас продуктивным.",
-        "author-ru": "Джон Лоусон",
-        "text-en": "Process is key to success. You need to have a workflow that makes you productive.",
-        "author-en": "John Lawson"
+        "text_ru": "Процесс – это ключ к успеху. Вы должны иметь рабочий процесс, который делает вас продуктивным.",
+        "author_ru": "Джон Лоусон",
+        "text_en": "Process is key to success. You need to have a workflow that makes you productive.",
+        "author_en": "John Lawson"
     },
     {
-        "text-ru": "Самое важное – это то, что вы делаете сегодня, не завтра.",
-        "author-ru": "Марк Твен",
-        "text-en": "The most important thing is to do what you're doing today, not tomorrow.",
-        "author-en": "Mark Twain"
+        "text_ru": "Самое важное – это то, что вы делаете сегодня, не завтра.",
+        "author_ru": "Марк Твен",
+        "text_en": "The most important thing is to do what you're doing today, not tomorrow.",
+        "author_en": "Mark Twain"
     },
     {
-        "text-ru": "Ваше время ограничено, не тратьте его на чьи-то жизни.",
-        "author-ru": "Стив Джобс",
-        "text-en": "Your time is limited, don't waste it living someone else's life.",
-        "author-en": "Steve Jobs"
+        "text_ru": "Ваше время ограничено, не тратьте его на чьи-то жизни.",
+        "author_ru": "Стив Джобс",
+        "text_en": "Your time is limited, don't waste it living someone else's life.",
+        "author_en": "Steve Jobs"
     }
 ]

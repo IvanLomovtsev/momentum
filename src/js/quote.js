@@ -1,7 +1,16 @@
+
+const changeQuote = document.querySelector('.change-quote');
+const quote = document.querySelector('.quote');
+const author = document.querySelector('.author');
+
 async function getQuotes() {  
     const quotes = './assets/data/quote-data.json';
     const res = await fetch(quotes);
-    const data = await res.json(); 
-    console.log(data);
+    const data = await res.json();
+    const numQuote =  Math.floor(Math.random()*data.length);
+    quote.textContent = data[numQuote].text_ru;
+    author.textContent = data[numQuote].author_ru
   }
-  getQuotes();
+getQuotes();
+
+changeQuote.addEventListener ('click', getQuotes)

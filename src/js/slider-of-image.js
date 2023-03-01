@@ -18,7 +18,6 @@ function setBg() {
     img.onload = () => {      
         body.style.backgroundImage = `url('${img.src}')`;
     };
-    console.log(img.src)
 }
 
 //function that switches to the next picture
