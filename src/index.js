@@ -5,3 +5,5 @@ import './js/greeting';
 import './js/slider-of-image';
 import './js/weather-widget';
 import './js/quote';
+import './js/playlist';
+import './js/audioplayer';
