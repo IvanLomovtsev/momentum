@@ -1,10 +1,19 @@
 const city = document.querySelector('.city');
-city.value = 'Екатеринбург';
 const weatherIcon = document.querySelector('.weather-icon');
 const temperature = document.querySelector('.temperature');
 const weatherDescription = document.querySelector('.weather-description');
 const windSpeed = document.querySelector('.wind-speed');
 const humidity = document.querySelector('.humidity');
+
+//function that receives location data
+async function getPlace() {
+    const url = `http://ip-api.com/json/?lang=en`;
+    const res = await fetch(url);
+    const data = await res.json(); 
+    city.value = data.city;
+    getWeather(city.value)
+}
+getPlace()
 
 //function that receives weather information from the API
 async function getWeather() {  
@@ -14,13 +23,17 @@ async function getWeather() {
     weatherIcon.className = 'weather-icon owf';
     const speed = "wind speed: ";
     const hum = "humidity: ";
-    weatherIcon.classList.add(`owf-${data.weather[0].id}`);
-    weatherDescription.textContent = data.weather[0].description;
-    temperature.textContent = `${Math.floor(data.main.temp)}°C`;
-    windSpeed.textContent = `${speed}${Math.floor(data.wind.speed)} m/s`;
-    humidity.textContent = `${hum}${Math.floor(data.wind.speed)}`;
+    if (data.message==='city not found') {
+      alert("Населённый пункт введён некорректно")
+    }
+    else {
+      weatherIcon.classList.add(`owf-${data.weather[0].id}`);
+      weatherDescription.textContent = data.weather[0].description;
+      temperature.textContent = `${Math.floor(data.main.temp)}°C`;
+      windSpeed.textContent = `${speed}${Math.floor(data.wind.speed)} m/s`;
+      humidity.textContent = `${hum}${Math.floor(data.wind.speed)}`;
+    }
   }
-getWeather()
 
 //change of city
 city.addEventListener('change', ()=>{
