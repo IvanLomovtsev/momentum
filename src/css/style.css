@@ -42,8 +42,8 @@ body {
   border: 2px solid white;
   cursor: pointer;
 }
+
 .progress {
-  width: 50%;
   height: 8px;
   background-color: white;
 }
@@ -139,6 +139,29 @@ body {
 
 .play-next {
   background-image: url("../assets/svg/play-next.svg");
+}
+
+.sound-switch {
+  background-image: url("../assets/svg/soundon.svg");
+}
+
+.sound-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.soundline {
+  width: 70%;
+  height: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.sound-value {
+  width: 50%;
+  height: 8px;
+  background-color: white;
 }
 
 .weather {
