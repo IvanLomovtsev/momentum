@@ -1,10 +1,11 @@
 import playList from './playlist.js';
 
-//track-time
+//current track information
 const trackTitle = document.querySelector('.track-title');
+const timeline = document.querySelector ('.timeline');
 const trackCurrentTime =document.querySelector('.current');
 const trackLengthTime =document.querySelector('.length');
-let progressBar = document.querySelector('.progress');
+const progressBar = document.querySelector('.progress');
 
 //controls
 const playTrack = document.querySelector('.play');
@@ -78,6 +79,12 @@ function progressAudio() {
     nextAudio()
   }
 }
+
+timeline.addEventListener("click", placeOfClick => {
+  const timelineWidth = window.getComputedStyle(timeline).width;
+  const timeToSeek = placeOfClick.offsetX / parseInt(timelineWidth) * audio.duration;
+  audio.currentTime = timeToSeek;
+});
 
 setInterval(progressAudio, 500);
 
